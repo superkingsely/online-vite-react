@@ -1,0 +1,23 @@
+.auto-con{
+    font-weight: bold;
+}
+.auto-con.clicked{
+    font-weight: bold;
+    color: white;
+}
+.auto-con.clicked .circle{
+    background-color: green;
+}
+.auto-con .circle{
+    background-color:red;
+}
+.auto-con.clicked span{
+    display: none;
+}
+.auto-con.clicked .on{
+    display: block;
+    color: black;
+}
+.on{
+    display: none;
+}

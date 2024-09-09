@@ -1,8 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+  font-family: sans-serif;
+}
 .app{
   min-height: 100vh;
-  background-color: aqua;
+}
+.mobile{
+  display: none;
+}
+@media (max-width:600px) {
+  .desktop{
+    display: none;
+  }
 }
